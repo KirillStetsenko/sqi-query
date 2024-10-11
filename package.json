@@ -1,0 +1,19 @@
+{
+	"name": "sql",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.21.0",
+		"express-handlebars": "^8.0.1",
+		"handlebars": "^4.7.8",
+		"mysql2": "^3.11.3",
+		"node-mysql-admin": "^0.1.8",
+		"nodemon": "^3.1.7"
+	}
+}

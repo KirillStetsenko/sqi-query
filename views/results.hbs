@@ -1,0 +1,17 @@
+<h1>RESULTS</h1>
+
+<p>{{#each data}}
+		<ul>
+			<li>{{name}}
+				<a href='remove/{{id}}'>удалить</a>
+			</li>
+		</ul>
+	{{/each}}
+</p>
+
+<p>{{#each data}}
+
+		<a href='show/{{id}}'>{{name}}</a>
+
+	{{/each}}
+</p>
